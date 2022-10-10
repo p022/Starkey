@@ -1,0 +1,32 @@
+[
+  {
+    "user": "u1",
+    "timestamp": "12345",
+    "command": "Red"
+  },
+  {
+    "user": "u1",
+    "timestamp": "12345",
+    "command": "Blue"
+  },
+  {
+    "user": "u1",
+    "timestamp": "123456",
+    "command": "Red"
+  },
+  {
+    "user": "u1",
+    "timestamp": "1234578",
+    "command": "Red"
+  },
+  {
+    "user": "u2",
+    "timestamp": "12345",
+    "command": "Red"
+  },
+  {
+    "user": "u3",
+    "timestamp": "12345",
+    "command": "Red"
+  }
+]
