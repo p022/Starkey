@@ -15,41 +15,41 @@ python statistics.py
 ```
 [
   {
-    "user": "u1",
+    "user": "user_1",
     "timestamp": "12345",
-    "command": "Red"
+    "command": "red"
   },
   {
-    "user": "u1",
+    "user": "user_1",
     "timestamp": "12345",
-    "command": "Blue"
+    "command": "blue"
   },
   {
-    "user": "u1",
+    "user": "user_1",
     "timestamp": "123456",
-    "command": "Red"
+    "command": "red"
   },
   {
-    "user": "u1",
+    "user": "user_1",
     "timestamp": "1234578",
-    "command": "Red"
+    "command": "red"
   },
   {
-    "user": "u2",
+    "user": "user_2",
     "timestamp": "12345",
-    "command": "Red"
+    "command": "red"
   },
   {
-    "user": "u3",
+    "user": "user_3",
     "timestamp": "12345",
-    "command": "Red"
+    "command": "red"
   }
 ]
 ```
 
 ## Sample output.json file generated:
 ```
-{"u1": {"Red": ["12345", "123456", "1234578"], "Blue": ["12345"]}, "u2": {"Red": ["12345"]}, "u3": {"Red": ["12345"]}}
+{"user_1": {"red": ["12345", "123456", "1234578"], "blue": ["12345"]}, "user_2": {"red": ["12345"]}, "user_3": {"red": ["12345"]}}
 ```
 
 

@@ -1,12 +1,13 @@
 import json
 
-COMMANDS = {'Red', 'Blue', 'Yellow', 'Green'}
+COMMANDS = {'red', 'blue', 'yellow', 'green'}
 
 
 def get_most_used_command(user_events):
     command_count_dict = dict()
     for user, command_dict in user_events.items():
         for command in command_dict:
+            # initialization
             if command not in command_count_dict:
                 command_count_dict[command] = 0
             command_count_dict[command] += len(command_dict[command])
@@ -16,13 +17,13 @@ def get_most_used_command(user_events):
             max_command_count = count
             result_command = command
     print("Command: {}, Usage Count: {}".format(result_command, max_command_count))
-    return result_command, max_command_count
 
 
 def get_user_with_most_commands(user_events):
     user_count_dict = dict()
     for user, command_dict in user_events.items():
         if user not in user_count_dict:
+            # initialization
             user_count_dict[user] = 0
         for command in command_dict:
             user_count_dict[user] += len(command_dict[command])
@@ -33,7 +34,6 @@ def get_user_with_most_commands(user_events):
             max_command_count = count
             result_user = user
     print("User: {}, Commands Count: {}".format(result_user, max_command_count))
-    return result_user, max_command_count
 
 
 def get_commands_count_by_user(user_events):

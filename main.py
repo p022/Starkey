@@ -33,3 +33,4 @@ def process_logs(input_file_name, output_file_name):
 
 if __name__ == '__main__':
     process_logs("input.json", "output.json")
+    #process_logs("input_1.json", "output_1.json")

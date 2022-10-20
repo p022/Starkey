@@ -1,32 +1,32 @@
 [
   {
-    "user": "u1",
+    "user": "user_1",
     "timestamp": "12345",
-    "command": "Red"
+    "command": "red"
   },
   {
-    "user": "u1",
+    "user": "user_1",
     "timestamp": "12345",
-    "command": "Blue"
+    "command": "blue"
   },
   {
-    "user": "u1",
+    "user": "user_1",
     "timestamp": "123456",
-    "command": "Red"
+    "command": "red"
   },
   {
-    "user": "u1",
+    "user": "user_1",
     "timestamp": "1234578",
-    "command": "Red"
+    "command": "red"
   },
   {
-    "user": "u2",
+    "user": "user_2",
     "timestamp": "12345",
-    "command": "Red"
+    "command": "red"
   },
   {
-    "user": "u3",
+    "user": "user_3",
     "timestamp": "12345",
-    "command": "Red"
+    "command": "red"
   }
 ]
