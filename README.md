@@ -7,6 +7,10 @@
 ```
 python main.py
 ```
+3. To get useful user statistics from the parsed event logs, run the following command:   
+```
+python statistics.py
+```
 ## Sample input.json file:
 ```
 [
